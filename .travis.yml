@@ -13,7 +13,6 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
-  github-token: $GITHUB_TOKEN
   api_key: 
   app: mgc-api
   on:
