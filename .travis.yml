@@ -13,8 +13,9 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
+  github-token: $GITHUB_TOKEN
   api_key: 
-  app: mgc
+  app: mgc-api
   on:
     repo: rubbenpad/employees-management-api
 env:
