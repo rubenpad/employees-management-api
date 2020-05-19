@@ -2,6 +2,7 @@
 
 const { ApolloServer } = require('apollo-server-express')
 const express = require('express')
+const corts = require('cors')
 const { bold } = require('kleur')
 
 const { config } = require('./config')
@@ -36,10 +37,10 @@ const server = new ApolloServer({
   resolvers,
   dataSources,
   context,
-  cors: true,
   playground: config.dev ? true : false
 })
 const app = express()
+app.use(cors())
 server.applyMiddleware({ app })
 
 app.listen(config.port, () => {
