@@ -36,7 +36,7 @@ const server = new ApolloServer({
   resolvers,
   dataSources,
   context,
-  introspection: true,
+  cors: true,
   playground: config.dev ? true : false
 })
 const app = express()
