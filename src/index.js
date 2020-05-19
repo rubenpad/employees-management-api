@@ -2,7 +2,7 @@
 
 const { ApolloServer } = require('apollo-server-express')
 const express = require('express')
-const corts = require('cors')
+const cors = require('cors')
 const { bold } = require('kleur')
 
 const { config } = require('./config')
