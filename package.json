@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "faker": "^4.1.0",
+    "husky": "4.2.5",
     "jest": "25.5.0"
   },
   "jest": {
