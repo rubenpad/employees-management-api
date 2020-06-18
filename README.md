@@ -2,7 +2,7 @@
 
 This application allow you to register with name and email company to manage data about your employees. 
 
-This is the backend layer of a fullstack project to implement basic CRUD operetions an born from a mockup concept and becomes a project that can be scaled througt time.
+This is the backend layer of a fullstack project to implement basic CRUD operations and born from a mockup concept and becomes a project that can be scaled through time.
 
 Want to know the frontend of this application: https://github.com/rubbenpad/employees-management
 
